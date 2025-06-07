@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints
+checkpoints/
+
+# Large data files
+data/
+
+# Results and output
+output/
+results/
+benchmark_results/
+evaluation_results/
+
+# Large model files
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+*.pb
